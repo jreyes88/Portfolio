@@ -1,0 +1,214 @@
+/*
+  =====================================
+  Navigation Bar
+  =====================================
+*/
+nav {
+    background-color: #a0a0a0;
+}
+nav .brand-logo {
+    color: #000000;
+}
+
+/*
+  =====================================
+  Content
+  =====================================
+*/
+#bearBanner {
+    border-radius: 50%;
+    width: 30%;
+}
+
+/*
+  =====================================
+  Project Section
+  =====================================
+*/
+
+.projectLink {
+    font-size: 20px;
+    font-weight: 8;
+    display: block;
+}
+
+.projectGitHubLink {
+    font-size: 15px;
+    font-weight: 8;
+    display: block;
+}
+
+.project-stack {
+    background-color: #FFF;
+    color: black;
+}
+
+.project {
+    display: block;
+    position: relative;
+    margin: 0 auto 30px auto;
+    height: 100px;
+}
+
+.project-image {
+    display: block;
+    margin: auto;
+    height: 100%;
+    margin: 0 auto;
+}
+
+.project .project-words {
+    position: absolute;
+    bottom: 0;
+    width: 96%;
+    padding: 0;
+    height: 100px;
+    text-align: center;
+    color: black;
+    opacity: 0;
+    background: #FFF;
+    -webkit-transition: all .35s;
+    -moz-transition: all .35s;
+    transition: all .35s;
+}
+
+.project .project-words .project-words-content {
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    padding-left: auto;
+    padding-right: auto;
+    transform: translateY(-50%);
+    font-size: 2em;
+    font-weight: 500;
+    letter-spacing: .11em;
+}
+
+.project:hover .project-words {
+    opacity: 1;
+}
+
+/*
+  =====================================
+  Technologies Section
+  =====================================
+*/
+
+#techIconGridImagesMaterialize {
+    margin: 25px auto;
+}
+
+#techIconGridImagesNPM {
+    margin: 34px auto;
+}
+
+.tech-stack {
+    background-color: #FFF;
+    color: black;
+}
+
+.tech {
+    display: block;
+    position: relative;
+    margin: 0 auto 30px auto;
+    height: 100px;
+}
+
+.tech-image {
+    display: block;
+    margin: auto;
+    width: 30%;
+    margin: 10px auto;
+}
+
+.tech .tech-words {
+    position: absolute;
+    bottom: 0;
+    width: 96%;
+    padding: 0;
+    height: 100px;
+    text-align: center;
+    color: black;
+    opacity: 0;
+    background: #FFF;
+    -webkit-transition: all .35s;
+    -moz-transition: all .35s;
+    transition: all .35s;
+}
+
+.tech .tech-words .tech-words-content {
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    padding-left: auto;
+    padding-right: auto;
+    transform: translateY(-50%);
+    font-size: 2em;
+    font-weight: 500;
+    letter-spacing: .11em;
+}
+
+.tech:hover .tech-words {
+    opacity: 1;
+}
+
+/*
+  =====================================
+  Footer
+  =====================================
+*/
+footer.page-footer {
+    background-color: #a0a0a0;
+}
+
+#footerContactHeader {
+    text-align: center;
+}
+
+#footerIconLogosDiv{
+    width: 248px;
+    height: 90px;
+    padding: 0;
+    display: block;
+    margin: 0 auto;
+}
+
+.footerIconLogos {
+    width: 70px;
+    padding: 0;
+    margin: 10px 5px;
+}
+
+/*
+  =====================================
+  MediaQueries
+  =====================================
+*/
+@media screen and (max-width: 640px) {
+    #bearBanner {
+        width: 60%;
+    }
+
+    /*
+      ===================================
+      Technologies Section
+      ===================================
+    */
+    .row .col.s4 {
+        margin: 0 5%;
+        width: 90%;
+        padding: 0;
+    }
+
+    .tech-image {
+        display: block;
+        margin: auto;
+        width: 20%;
+        margin: 0 auto;
+    }
+
+    .tech .tech-words {
+        width: 100%;
+    }
+
+}
