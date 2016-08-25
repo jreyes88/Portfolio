@@ -12,15 +12,15 @@
 </head>
 
 <body>
+    <h1 class="center">
+        Joey Reyes
+    </h1>
     <nav role="navigation">
         <div class="nav-wrapper container">
-            <a id="logo-container" href="#" class="center brand-logo">
-                Joey Reyes
-            </a>
             <ul class="left hide-on-med-and-down">
                 <li>
-                    <a href="#">
-                        Navbar Link
+                    <a href="#recentWorkSection">
+                        Recent Work
                     </a>
                 </li>
             </ul>
@@ -52,7 +52,7 @@
         </div>
     </div>
 
-    <div class="container">
+    <div class="container" id="recentWorkSection">
         <h2 class="center light-blue-text">
             <i class="material-icons">
                 flash_on
@@ -63,67 +63,186 @@
         </h5>
         <section class="row project-stack">
             <div class="col s4 project">
-                <img src="images/projects/classify.png" alt="HTML Icon" class="hidden project-image animated">
-                <div class="project-words">
-                    <div class="project-words-content">
-                        <a href="http://classify.host" class="projectLink">
-                            Classify Site
-                        </a>
-                        <a href="https://github.com/chanceeakin/classify-backend" class="projectGitHubLink">
-                            GitHub
-                        </a>
+                <div class="card">
+                    <div class="card-image waves-effect waves-block waves-light">
+                        <img class="activator project-image" id="classifyProjectImage" src="images/projects/classify.png" alt="Classify Logo" >
+                    </div>
+                    <div class="card-content">
+                        <span class="card-title activator grey-text text-darken-4">
+                            Classify
+                            <i class="material-icons right">
+                                more_vert
+                            </i>
+                        </span>
+                        <p>
+                            <a href="http://classify.host">
+                                Classify Website
+                            </a>
+                            <br>
+                            <a href="https://github.com/chanceeakin/classify-backend" class="cardDisplay">
+                                Project GitHub
+                            </a>
+                        </p>
+                    </div>
+                    <div class="card-reveal">
+                        <span class="card-title grey-text">
+                            Classify
+                            <i class="material-icons right">
+                                close
+                            </i>
+                        </span>
+                        <p>
+                            Here is some more information about this product that is only revealed once clicked on.
+                        </p>
                     </div>
                 </div>
             </div>
             <div class="col s4 project">
-                <img src="images/projects/doghaus.png" alt="HTML Icon" class="hidden project-image animated">
-                <div class="project-words">
-                    <div class="project-words-content">
-                        <a href="http://doghaus.herokuapp.com" class="projectLink">
-                            DogHaüs Site
-                        </a>
-                        <a href="https://github.com/jreyes88/project-doghaus" class="projectGitHubLink">
-                            GitHub
-                        </a>
+                <div class="card">
+                    <div class="card-image waves-effect waves-block waves-light">
+                        <img class="activator" src="images/projects/doghaus.png" alt="Dog Haüs Logo">
+                    </div>
+                    <div class="card-content">
+                        <span class="card-title activator grey-text text-darken-4">
+                            Dog Haüs
+                            <i class="material-icons right">
+                                more_vert
+                            </i>
+                        </span>
+                        <p>
+                            <a href="http://doghaus.herokuapp.com">
+                                DogHaüs Website
+                            </a>
+                            <br>
+                            <a href="https://github.com/jreyes88/project-doghaus" class="projectGitHubLink" class="cardDisplay">
+                                Project GitHub
+                            </a>
+                        </p>
+                    </div>
+                    <div class="card-reveal">
+                        <span class="card-title grey-text">
+                            DogHaüs
+                            <i class="material-icons right">
+                                close
+                            </i>
+                        </span>
+                        <p>
+                            Here is some more information about this product that is only revealed once clicked on.
+                        </p>
                     </div>
                 </div>
             </div>
             <div class="col s4 project">
-                <img src="images/projects/taco_time.png" alt="HTML Icon" class="hidden project-image animated">
-                <div class="project-words">
-                    <div class="project-words-content">
-                        <a href="https://fierce-beyond-93187.herokuapp.com/tacos" class="projectLink">
-                            Taco Time! Site
-                        </a>
-                        <a href="https://github.com/jreyes88/Week14-EatDaTaco" class="projectGitHubLink">
-                            GitHub
-                        </a>
+                <div class="card">
+                    <div class="card-image waves-effect waves-block waves-light">
+                        <img class="activator" src="images/projects/taco_time.png" alt="Taco Time Logo">
+                    </div>
+                    <div class="card-content">
+                        <span class="card-title activator grey-text text-darken-4">
+                            Taco Time
+                            <i class="material-icons right">
+                                more_vert
+                            </i>
+                        </span>
+                        <p>
+                            <a href="https://fierce-beyond-93187.herokuapp.com/tacos">
+                                Taco Time Website
+                            </a>
+                            <br>
+                            <a href="https://github.com/jreyes88/Week14-EatDaTaco" class="projectGitHubLink" class="cardDisplay">
+                                Project GitHub
+                            </a>
+                        </p>
+                    </div>
+                    <div class="card-reveal">
+                        <span class="card-title grey-text">
+                            Taco Time
+                            <i class="material-icons right">
+                                close
+                            </i>
+                        </span>
+                        <p>
+                            Here is some more information about this product that is only revealed once clicked on.
+                        </p>
                     </div>
                 </div>
             </div>
-            <div class="col s6 project">
-                <img src="images/projects/cute_emergency.png" alt="HTML Icon" class="hidden project-image animated">
-                <div class="project-words">
-                    <div class="project-words-content">
-                        <a href="http://cuteemergency.herokuapp.com" class="projectLink">
-                            Cute Emergency! Site
-                        </a>
-                        <a href="https://github.com/jreyes88/Week6-Cute_Emergency" class="projectGitHubLink">
-                            GitHub
-                        </a>
+        </section>
+        <section class="row project-stack">
+
+            <div class="col s2">
+            </div>
+
+            <div class="col s4 project">
+                <div class="card">
+                    <div class="card-image waves-effect waves-block waves-light">
+                        <img class="activator" src="images/projects/cute_emergency.png" alt="Cute Emergency Logo">
+                    </div>
+                    <div class="card-content">
+                        <span class="card-title activator grey-text text-darken-4">
+                            Cute Emergency!
+                            <i class="material-icons right">
+                                more_vert
+                            </i>
+                        </span>
+                        <p>
+                            <a href="http://cuteemergency.herokuapp.com" class="projectLink">
+                                Cute Emergency! Website
+                            </a>
+                            <a href="https://github.com/jreyes88/Week6-Cute_Emergency" class="projectGitHubLink" class="projectGitHubLink" class="cardDisplay">
+                                Project GitHub
+                            </a>
+                        </p>
+                    </div>
+                    <div class="card-reveal">
+                        <span class="card-title grey-text">
+                            Cute Emergency!
+                            <i class="material-icons right">
+                                close
+                            </i>
+                        </span>
+                        <p>
+                            Here is some more information about this product that is only revealed once clicked on.
+                        </p>
                     </div>
                 </div>
             </div>
-            <div class="col s6 project">
-                <img src="images/projects/calculator.png" alt="HTML Icon" class="hidden project-image animated">
-                <div class="project-words">
-                    <div class="project-words-content">
-                        <a href="https://github.com/jreyes88/calculatorJava" class="projectLink">
-                            Java Calculator GitHub
-                        </a>
+
+            <div class="col s4 project">
+                <div class="card">
+                    <div class="card-image waves-effect waves-block waves-light">
+                        <img class="activator" src="images/projects/calculator.png" alt="Calculator Logo">
+                    </div>
+                    <div class="card-content">
+                        <span class="card-title activator grey-text text-darken-4">
+                            Calculator
+                            <i class="material-icons right">
+                                more_vert
+                            </i>
+                        </span>
+                        <p>
+                            <a href="https://github.com/jreyes88/calculatorJava" class="projectGitHubLink" class="projectGitHubLink" class="cardDisplay">
+                                Project GitHub
+                            </a>
+                        </p>
+                    </div>
+                    <div class="card-reveal">
+                        <span class="card-title grey-text">
+                            Cute Emergency!
+                            <i class="material-icons right">
+                                close
+                            </i>
+                        </span>
+                        <p>
+                            Here is some more information about this product that is only revealed once clicked on.
+                        </p>
                     </div>
                 </div>
             </div>
+
+            <div class="col s2">
+            </div>
+        </section>
     </div>
 
 
