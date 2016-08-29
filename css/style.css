@@ -1,24 +1,35 @@
-/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#499bea+0,207ce5+69&0.45+33,1+100 */
+/*
+  =====================================
+  Total Page Styling
+  =====================================
+*/
+
 body {
     background: -moz-linear-gradient(top,  rgba(73,155,234,0.45) 0%, rgba(53,140,232,0.45) 33%, rgba(32,124,229,0.75) 69%, rgba(32,124,229,1) 100%); /* FF3.6-15 */
     background: -webkit-linear-gradient(top,  rgba(73,155,234,0.45) 0%,rgba(53,140,232,0.45) 33%,rgba(32,124,229,0.75) 69%,rgba(32,124,229,1) 100%); /* Chrome10-25,Safari5.1-6 */
-backgroundackground: linear-gradient(to bottom,  rgba(73,155,234,0.45) 0%,rgba(53,140,232,0.45) 33%,rgba(32,124,229,0.75) 69%,rgba(32,124,229,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    background: linear-gradient(to bottom,  rgba(73,155,234,0.45) 0%,rgba(53,140,232,0.45) 33%,rgba(32,124,229,0.75) 69%,rgba(32,124,229,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
     filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#73499bea', endColorstr='#207ce5',GradientType=0 ); /* IE6-9 */
     font-family: 'Poiret One', "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;;
-}
-
-a:hover {
-    cursor: pointer;
 }
 
 .container {
     display: block;
 }
 
+a:hover {
+    cursor: pointer;
+    color: #fff;
+}
+
 p {
     font-size: 20px;
 }
 
+/*
+  =====================================
+  Header
+  =====================================
+*/
 .headerArea {
     background-image: url("../images/headerbackground5.jpg");
     background-repeat: no-repeat;
@@ -64,6 +75,9 @@ nav .brand-logo {
 }
 
 nav ul a {
+    color: #000;
+}
+nav ul a:hover {
     color: #000;
 }
 
@@ -281,8 +295,28 @@ footer.page-footer {
   =====================================
 */
 @media screen and (max-width: 640px) {
+    /*
+      =====================================
+      Total Page Styling
+      =====================================
+    */
+    p {
+        font-size: 16px;
+    }
+
+    /*
+      ===================================
+      Header Area
+      ===================================
+    */
+    .headerArea {
+        height: 163px;
+    }
+
     #bearBanner {
-        width: 60%;
+        width: 25%;
+        padding: 0;
+        margin: 5px 0;
     }
 
     /*
@@ -290,21 +324,5 @@ footer.page-footer {
       Technologies Section
       ===================================
     */
-/*    .row .col.s4 {
-        margin: 0 5%;
-        width: 90%;
-        padding: 0;
-    }*/
-
-    .tech-image {
-        display: block;
-        margin: auto;
-        width: 20%;
-        margin: 0 auto;
-    }
-
-    .tech .tech-words {
-        width: 100%;
-    }
 
 }
