@@ -126,6 +126,10 @@ nav ul a:hover {
     padding: 0 20px;
 }
 
+#progressCoffeeImage {
+    width: 50%;
+}
+
 #classifyProjectImage {
     height: 85px;
     width: 80%;
