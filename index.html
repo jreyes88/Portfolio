@@ -1,454 +1,99 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
-    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0"/>
-    <title>Joey Reyes</title>
-
-    <!-- CSS  -->
-    <link href="https://fonts.googleapis.com/css?family=Poiret+One" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-    <link href="css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection"/>
-    <link href="css/style.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+	<title>Joey Reyes</title>
+	<link href="https://fonts.googleapis.com/css?family=Lato:400,400i" rel="stylesheet">
+	<link href="assets/css/reset.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+	<link href="assets/css/style.css" type="text/css" rel="stylesheet" media="screen,projection"/>
 </head>
-
 <body>
-    <div class="headerArea">
-        <div class="center">
-            <img src="images/bear.jpg" alt="Bear Eating Joey Reyes" id="bearBanner">
-        </div>
-        <nav role="navigation">
-            <div class="nav-wrapper container">
-                <div id="navBarButtonsDiv">
-                    <ul class="center">
-                        <li class="navBarButton">
-                            <a href="#recentWorkSection">
-                                Recent Work
-                            </a>
-                        </li>
-                        <li class="navBarButton">
-                            <a href="#technologiesSection">
-                                Technologies
-                            </a>
-                        </li>
-                        <li class="navBarButton">
-                            <a href="#contactSection">
-                                Contact Me
-                            </a>
-                        </li>                        
-                    </ul>
-                </div>
-            </div>
-        </nav>
-    </div>
+	<div class="main">
+		<div class="left">
+			<div id="contactSection">
+				<h1 id="myName">Joey Reyes</h1>
 
-    <div class="section no-pad-bot" id="index-banner">
-        <div class="container">
-            <div class="row center">
-                <p>My name's Joey. I attained my B.A. in English from the University of Texas at Austin in 2010. My work experience includes document processing at <a href="http://www.legalzoom.com/">LegalZoom.com</a>, copy editing for Badgerdog Literary Publishing, courier work at the <a href="http://ctr.utexas.edu/">Center for Transportation Research</a>, and currently roasting coffee at <a href="http://www.progresscoffeeroasting.com/">Progress Coffee</a>.</p>
+				<div id="getInTouchHeader">
+					<h2>Get in touch:</h2>
+				</div>
+				<div id="getInTouchLinks">
+					<a href="https://github.com/jreyes88" class="contactLinks">GitHub</a>
+					<a href="https://www.linkedin.com/in/joey-reyes" class="contactLinks">LinkedIn</a>
+					<a href="mailto:jreyes88@gmail.com?Subject=Hello%20There" target="_top" class="contactLinks">Email</a>
+				</div>
+			</div>
+		</div>
 
-                <p>When I'm not coding, I can be found riding my bike around Austin, hiking and swimming in the <a href="http://www.texasoutside.com/bartongreenbelt.htm">Barton Creek Greenbelt</a>, or out with friends playing pub trivia. Some of my absolute favorite things include: cooking, horror films, memes, and collaborative Spotify playlists.</p>
-            </div>
-        </div>
-        <h2 class="center">
-            <i class="material-icons">
-                flash_on
-            </i>
-        </h2>
-    </div>
+		<div class="right">
 
-    <div class="container" id="recentWorkSection">
-        <h5 class="center">
-            Recent Work
-        </h5>
-        <section class="row rowProject project-stack">
-            <div class="col s12 l4 project">
-                <div class="card">
-                    <div class="card-image waves-effect waves-block waves-light">
-                        <img class="activator project-image" id="progressCoffeeImage" src="images/projects/progress.png" alt="Progress Coffee Logo" >
-                    </div>
-                    <div class="card-content">
-                        <span class="card-title activator grey-text text-darken-4">
-                            Classify
-                            <i class="material-icons materialIconsDots right">
-                                more_vert
-                            </i>
-                        </span>
-                        <p>
-                            <a href="http://progress-coffee.herokuapp.com">
-                                Progress Coffee Website
-                            </a>
-                            <br>
-                            <a href="https://github.com/jreyes88/progress_coffee" class="projectGitHubLink cardDisplay">
-                                Project GitHub
-                            </a>
-                        </p>
-                    </div>
-                    <div class="card-reveal">
-                        <span class="card-title grey-text">
-                            Progress Coffee
-                            <i class="material-icons right">
-                                close
-                            </i>
-                        </span>
-                        <p>
-                            E-commerce website for Austin-area wholesale coffee roasting company built using Materialize, Node, Express, React, Snipcart.
-                        </p>
-                    </div>
-                </div>
-            </div>
-            <div class="col s12 l4 project">
-                <div class="card">
-                    <div class="card-image waves-effect waves-block waves-light">
-                        <img class="activator project-image" id="classifyProjectImage" src="images/projects/classify.png" alt="Classify Logo" >
-                    </div>
-                    <div class="card-content">
-                        <span class="card-title activator grey-text text-darken-4">
-                            Classify
-                            <i class="material-icons materialIconsDots right">
-                                more_vert
-                            </i>
-                        </span>
-                        <p>
-                            <a href="http://classify.host">
-                                Classify Website
-                            </a>
-                            <br>
-                            <a href="https://github.com/chanceeakin/classify-backend" class="projectGitHubLink cardDisplay">
-                                Project GitHub
-                            </a>
-                        </p>
-                    </div>
-                    <div class="card-reveal">
-                        <span class="card-title grey-text">
-                            Classify
-                            <i class="material-icons right">
-                                close
-                            </i>
-                        </span>
-                        <p>
-                            Learning management system built using bcrypt, express, express session, mysql, sequelize.
-                        </p>
-                    </div>
-                </div>
-            </div>
-            <div class="col s12 l4 project">
-                <div class="card">
-                    <div class="card-image waves-effect waves-block waves-light">
-                        <img class="activator" src="images/projects/doghaus.png" alt="Dog Haüs Logo">
-                    </div>
-                    <div class="card-content">
-                        <span class="card-title activator grey-text text-darken-4">
-                            Dog Haüs
-                            <i class="material-icons right">
-                                more_vert
-                            </i>
-                        </span>
-                        <p>
-                            <a href="http://doghaus.herokuapp.com">
-                                DogHaüs Website
-                            </a>
-                            <br>
-                            <a href="https://github.com/jreyes88/project-doghaus" class="projectGitHubLink" class="cardDisplay">
-                                Project GitHub
-                            </a>
-                        </p>
-                    </div>
-                    <div class="card-reveal">
-                        <span class="card-title grey-text">
-                            DogHaüs
-                            <i class="material-icons right">
-                                close
-                            </i>
-                        </span>
-                        <p>
-                            Static hotel proof-of-concept built using Google Maps API, Meetup API, Open Weather Map API, Animsition, Slick Photo Carousel, Bootstrap, Firebase.
-                        </p>
-                    </div>
-                </div>
-            </div>
-        </section>
-        <section class="row project-stack">
-
-            <div class="col 2 s2">
-            </div>
-
-            <div class="col s12 l4 project">
-                <div class="card">
-                    <div class="card-image waves-effect waves-block waves-light">
-                        <img class="activator" src="images/projects/taco_time.png" alt="Taco Time Logo">
-                    </div>
-                    <div class="card-content">
-                        <span class="card-title activator grey-text text-darken-4">
-                            Taco Time
-                            <i class="material-icons right">
-                                more_vert
-                            </i>
-                        </span>
-                        <p>
-                            <a href="https://fierce-beyond-93187.herokuapp.com/tacos">
-                                Taco Time Website
-                            </a>
-                            <br>
-                            <a href="https://github.com/jreyes88/Week14-EatDaTaco" class="projectGitHubLink" class="cardDisplay">
-                                Project GitHub
-                            </a>
-                        </p>
-                    </div>
-                    <div class="card-reveal">
-                        <span class="card-title grey-text">
-                            Taco Time
-                            <i class="material-icons right">
-                                close
-                            </i>
-                        </span>
-                        <p>
-                            Simple menu manipulation application built using MVC architecture, restful API, Express, Express-Handlebars, and MySQL.
-                        </p>
-                    </div>
-                </div>
-            </div>
-
-            <div class="col s12 l4 project">
-                <div class="card">
-                    <div class="card-image waves-effect waves-block waves-light">
-                        <img class="activator" src="images/projects/cute_emergency.png" alt="Cute Emergency Logo">
-                    </div>
-                    <div class="card-content">
-                        <span class="card-title activator grey-text text-darken-4">
-                            Cute Emergency!
-                            <i class="material-icons right">
-                                more_vert
-                            </i>
-                        </span>
-                        <p>
-                            <a href="http://cuteemergency.herokuapp.com" class="projectLink">
-                                Cute Emergency! Website
-                            </a>
-                            <a href="https://github.com/jreyes88/Week6-Cute_Emergency" class="projectGitHubLink" class="projectGitHubLink" class="cardDisplay">
-                                Project GitHub
-                            </a>
-                        </p>
-                    </div>
-                    <div class="card-reveal">
-                        <span class="card-title grey-text">
-                            Cute Emergency!
-                            <i class="material-icons right">
-                                close
-                            </i>
-                        </span>
-                        <p>
-                            Simple web application that utilizes Giphy API and Materialize.
-                        </p>
-                    </div>
-                </div>
-            </div>
-
-            <div class="col s2">
-            </div>
-        </section>
-    </div>
-
-    <div class="container" id="technologiesSection">
-        <h2 class="center light-blue-text">
-            <i class="material-icons">
-                flash_on
-            </i>
-        </h2>
-        <h5 class="center">
-            Technologies
-        </h5>
-        <section class="row tech-stack">
-            <div class="col s4 tech">
-                <img src="images/technologies/1html.png" alt="HTML Icon" class="hidden tech-image animated">
-                <div class="tech-words">
-                    <div class="tech-words-content">
-                        <h5>
-                            HTML
-                        </h5>
-                    </div>
-                </div>
-            </div>
-            <div class="col s4 tech">
-                <img src="images/technologies/2css.png" alt="CSS Icon" class="hidden tech-image animated">
-                <div class="tech-words">
-                    <div class="tech-words-content text-center">
-                        <h5>
-                            CSS
-                        </h5>
-                    </div>
-                </div>
-            </div>
-            <div class="col s4 tech">
-                <img src="images/technologies/3javascript.png" alt="JavaScript Icon" class="hidden tech-image animated">
-                <div class="tech-words">
-                    <div class="tech-words-content text-center">
-                        <h5>
-                            JavaScript
-                        </h5>
-                    </div>
-                </div>
-            </div>
-            <div class="col s4 tech">
-                <img src="images/technologies/4jquery.png" alt="jQuery Icon" class="hidden tech-image animated">
-                <div class="tech-words">
-                    <div class="tech-words-content text-center">
-                        <h5>
-                            jQuery
-                        </h5>
-                    </div>
-                </div>
-            </div>
-            <div class="col s4 tech">
-                <img src="images/technologies/5bootstrap.png" alt="Twitter Bootstrap Icon" class="hidden tech-image animated">
-                <div class="tech-words">
-                    <div class="tech-words-content text-center">
-                        <h5>
-                            Bootstrap
-                        </h5>
-                    </div>
-                </div>
-            </div>
-            <div class="col s4 tech">
-                <img src="images/technologies/6materialize.png" alt="Materialize Icon" class="hidden tech-image animated" id="techIconGridImagesMaterialize">
-                <div class="tech-words">
-                    <div class="tech-words-content text-center">
-                        <h5>
-                            Materialize
-                        </h5>
-                    </div>
-                </div>
-            </div>
-            <div class="col s4 tech">
-                <img src="images/technologies/7mysql.png" alt="MySQL Icon" class="hidden tech-image animated">
-                <div class="tech-words">
-                    <div class="tech-words-content text-center">
-                        <h5>
-                            MySQL
-                        </h5>
-                    </div>
-                </div>
-            </div>
-            <div class="col s4 tech">
-                <img src="images/technologies/8mongo.png" alt="Mongo Icon" class="hidden tech-image animated">
-                <div class="tech-words">
-                    <div class="tech-words-content text-center">
-                        <h5>
-                            Mongo
-                        </h5>
-                    </div>
-                </div>
-            </div>
-            <div class="col s4 tech">
-                <img src="images/technologies/9express.png" alt="Express Icon" class="hidden tech-image animated">
-                <div class="tech-words">
-                    <div class="tech-words-content text-center">
-                        <h5>
-                            Express
-                        </h5>
-                    </div>
-                </div>
-            </div>
-            <div class="col s4 tech">
-                <img src="images/technologies/10react.png" alt="React Icon" class="hidden tech-image animated">
-                <div class="tech-words">
-                    <div class="tech-words-content text-center">
-                        <h5>
-                            React
-                        </h5>
-                    </div>
-                </div>
-            </div>
-            <div class="col s4 tech">
-                <img src="images/technologies/11node.png" alt="Node Icon" class="hidden tech-image animated">
-                <div class="tech-words">
-                    <div class="tech-words-content text-center">
-                        <h5>
-                            Node
-                        </h5>
-                    </div>
-                </div>
-            </div>
-            <div class="col s4 tech">
-                <img src="images/technologies/12Git.png" alt="Git Icon" class="hidden tech-image animated">
-                <div class="tech-words">
-                    <div class="tech-words-content text-center">
-                        <h5>
-                            Git
-                        </h5>
-                    </div>
-                </div>
-            </div>
-            <div class="col s4 tech">
-                <img src="images/technologies/13GitHub.png" alt="GitHub Icon" class="hidden tech-image animated">
-                <div class="tech-words">
-                    <div class="tech-words-content text-center">
-                        <h5>
-                            GitHub
-                        </h5>
-                    </div>
-                </div>
-            </div>
-            <div class="col s4 tech">
-                <img src="images/technologies/14npm.png" alt="NPM Icon" class="hidden tech-image animated" id="techIconGridImagesNPM">
-                <div class="tech-words">
-                    <div class="tech-words-content text-center">
-                        <h5>
-                            NPM
-                        </h5>
-                    </div>
-                </div>
-            </div>
-            <div class="col s4 tech">
-                <img src="images/technologies/15java.png" alt="Java Icon" class="hidden tech-image animated">
-                <div class="tech-words">
-                    <div class="tech-words-content text-center">
-                        <h5>
-                            Java
-                        </h5>
-                    </div>
-                </div>
-            </div>
-        </section>
-    </div>
-
-    <footer class="page-footer" id="contactSection">
-        <div class="container">
-            <div class="row">
-                <div class="col s12">
-                    <h5 id="footerContactHeader">
-                        Find me:
-                    </h5>
-                    <div id="footerIconLogosTopDiv">
-                        <a href="https://play.spotify.com/user/12128883375">
-                            <img src="images/gmail_icon.png" alt="Gmail Logo" class="footerIconLogos">
-                        </a>
-                        <a href="https://play.spotify.com/user/12128883375">
-                            <img src="images/spotify_icon.png" alt="Spotify Logo" class="footerIconLogos">
-                        </a>
-                    </div>
-                    <div id="footerIconLogosBottomDiv">
-                        <a href="https://github.com/jreyes88">
-                            <img src="images/github_icon.png" alt="GitHub Logo" class="footerIconLogos">
-                        </a>
-                        <a href="https://www.linkedin.com/in/joey-reyes-51b98711a">
-                            <img src="images/linkedin_icon.png" alt="LinkedIn Logo" class="footerIconLogos">
-                        </a>
-                        <a href="https://www.instagram.com/migas.jpg/">
-                            <img src="images/instagram_icon.png" alt="Instagram Logo" class="footerIconLogos">
-                        </a>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </footer>
-
-    <!--  Scripts-->
-    <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
-    <script src="js/materialize.js"></script>
-    <script src="js/init.js"></script>
-
-    <!-- Scroll to jQuery API -->
-
+			<div id="recentWork">
+				<img src="assets/images/migas.jpg" id="migasDotJpeg">
+				<h2>Howdy there!</h2>
+				<p id="greetingSection">My name's Joey, I make websites, and I play the cello. Feel free to get a hold of me! I also love <a href="https://play.spotify.com/user/12128883375">shared Spotify playlists</a> so feel free to share some music with me!</p>
+				<h2>Recent Work:</h2>
+				<div class="projectSection">
+					<img src="assets/images/progress.png" alt="Progress Coffee Buffalo Logo" class="projectIcons" id="progressCoffeeLogo">
+					<p class="projectDescription">For Progress Coffee, I did a complete website overhaul for an Austin-area wholesale coffee roasting company that I worked for part-time while I was in school. Challenges I ran into included figuring out how to route and update shopping cart information easily as a user, and how to use server requests to send an email via a contact form.</p>
+					<a href="http://progress-coffee.herokuapp.com/" class="projectLinks">Progress Coffee Website</a>
+					<a href="https://github.com/jreyes88/progress_coffee" class="projectLinks">Project GitHub Repository</a>
+					<p class="listHeader">Technologies Used:</p>
+					<ul>
+						<li>Node Server</li>
+						<li>Express Routing</li>
+						<li>React Component Rendering</li>
+						<li>Snipcart Shopping Cart</li>
+						<li>Mailgun Contact Form</li>
+						<li>Materialize Design</li>
+						<li>Parallax Template</li>
+					</ul>
+				</div>
+				<div class="projectSection">
+					<img src="assets/images/classify.png" alt="Classify Logo" class="projectIcons">
+					<p class="projectDescription">Learning management system built to help teachers easily distribute course materials and resources to their students. My specific contributions focused on account creation -- making sure a user could create an account, that duplicate account names could not be made, and that session information was specific to the user that was signed in to use the site.</p>
+					<a href="http://classify.host" class="projectLinks">Classify Website</a>
+					<a href="https://github.com/chanceeakin/classify-backend" class="projectLinks">Project GitHub Repository</a>
+					<p class="listHeader">Technologies Used:</p>
+					<ul>
+						<li>Node Server</li>
+						<li>Express Routing</li>
+						<li>Express Session</li>
+						<li>brypt Password Encryption</li>
+						<li>MySQL Database</li>
+						<li>Sequelize DB ORM</li>
+						<li>Materialize Design</li>
+					</ul>
+					<p class="listHeader">Team Members:</p>
+					<ul>
+						<li><a href="https://github.com/lisabattle">Lisa Battle</a></li>
+						<li><a href="https://github.com/chanceeakin">Chance Eakin</a></li>
+						<li><a href="https://github.com/johnroyflores">John Flores</a></li>
+						<li><a href="https://github.com/dsuare1">Derrick Suarez</a></li>
+					</ul>
+				</div>
+				<div class="projectSection">
+					<img src="assets/images/doghaus.png" alt="Dog Haüs Logo" class="projectIcons">
+					<p class="projectDescription">Proof-of-concept website for a fictitious hotel built to showcase clean and responsive front-end web design.</p>
+					<a href="http://doghaus.herokuapp.com" class="projectLinks">DogHaus Website</a>
+					<a href="https://github.com/jreyes88/project-doghaus" class="projectLinks">Project GitHub Repository</a>
+					<p class="listHeader">Technologies Used:</p>
+					<ul>
+						<li>Google Maps API</li>
+						<li>Meetup API</li>
+						<li>Open Weather Map API</li>
+						<li>Animsition</li>
+						<li>Slick Photo Carousel</li>
+						<li>Firebase</li>
+						<li>Bootstrap Template</li>
+					</ul>
+					<p class="listHeader">Team Members:</p>
+					<ul>
+						<li><a href="https://github.com/Multishifties">Michael Desantis</a></li>
+						<li><a href="https://github.com/TGreen97">Todd Green</a></li>
+						<li><a href="https://github.com/evnelson315">Evan Nelson</a></li>
+					</ul>
+				</div>
+			</div>
+		</div>
+		<div class="clear"></div>
+	</div>
 </body>
 </html>

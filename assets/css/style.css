@@ -1,0 +1,180 @@
+html {
+	min-height: 100%;
+    position: relative;
+}
+
+body {
+	height: 100%;
+	font-family: 'Lato', "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+}
+
+.clear {
+	clear: both;
+}
+
+.main {
+	width: 100%;
+}
+
+h1 {
+	font-size: 40px;
+}
+
+h2 {
+	font-size: 24px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+h3 {
+	font-size: 20px;
+}
+
+p {
+	line-height: 22px;
+	text-align: justify;
+}
+
+/* ================================ */
+/* Sidebar							*/
+/* ================================ */
+.left {
+	float: left;
+	width: 25%;
+	height: 100%;
+	background-color: #0A84FF;
+	position: absolute;
+    top:0;
+    bottom:0;
+    left:0;
+    right:0;
+    overflow:hidden;
+}
+
+#contactSection {
+	margin: 20px;
+}
+
+#getInTouchHeader {
+	margin: 20px 0 10px 0;
+}
+
+.contactLinks {
+	display: block;
+	margin-bottom: 10px;
+}
+
+/* ================================ */
+/* Main Content						*/
+/* ================================ */
+.right {
+	float: right;
+	width: 75%;
+	height: 100%;
+}
+
+#migasDotJpeg {
+	width: 80%;
+}
+
+#greetingSection {
+	width: 80%;
+}
+
+#recentWork {
+	margin: 20px 20px 20px 20px;
+}
+
+.projectSection {
+	width: 80%;
+	padding: 0;
+	margin: 0 0 15px 0;
+	display: block;
+}
+
+.projectIcons {
+	width: 100%;
+}
+
+.projectDescription {
+	margin-bottom: 10px;
+}
+
+.projectLinks {
+	display: block;
+	line-height: 22px;
+}
+
+.listHeader {
+	margin-top: 10px;
+}
+
+ul {
+	list-style-type: circle;
+	list-style-position: inside;
+}
+
+li {
+	line-height: 22px;
+}
+
+@media screen and (max-width: 640px) {
+	.left {
+		position: relative;
+		float: none;
+		width: 100%;
+		height: 150px;
+		display: block;
+	}
+
+	#myName {
+		margin-top: 20px;
+		text-align: center;
+	}
+
+	#contactSection {
+		margin: 10px;
+	}
+
+	#getInTouchHeader {
+		margin: 15px 0;
+		text-align: center;
+	}
+
+	#getInTouchLinks {
+		text-align: center;
+	}
+
+	.contactLinks {
+		display: inline;
+		margin: 10px 25px;
+	}
+
+	.right {
+		position: relative;
+		float: none;
+		width: 100%;
+		display: block;
+	}
+
+	#migasDotJpeg {
+		width: 100%;
+		display: block;
+		padding: 0;
+	}
+
+	h2, h3 {
+		text-align: center;
+	}
+
+	.projectSection {
+		width: 100%;
+		display: block;
+		padding: 0;
+	}
+
+	.projectIcons {
+		display: block;
+		margin: 0 auto;
+	}
+}
