@@ -77,10 +77,6 @@ p {
 	width: 80%;
 }
 
-#greetingSection {
-	width: 80%;
-}
-
 #recentWork {
 	margin: 20px 20px 20px 20px;
 }
@@ -92,12 +88,20 @@ p {
 	display: block;
 }
 
-.projectIcons {
+.projectIconsLarge {
 	width: 100%;
 }
 
+.projectIconsSmall {
+	display: none;
+}
+
 .projectDescription {
-	margin-bottom: 10px;
+	margin: 10px 0;
+}
+
+#classifyDescription {
+	margin-top: 0;
 }
 
 .technologiesUsed {
@@ -180,15 +184,30 @@ li {
 		text-align: center;
 	}
 
+	h2 {
+		margin-top: 20px;
+	}
+
 	.projectSection {
 		width: 100%;
 		display: block;
 		padding: 0;
 	}
 
-	.projectIcons {
-		display: block;
+	.projectIconsLarge {
+		display: none;
 		margin: 0 auto;
+	}
+
+	.projectIconsSmall {
+		display: block;
+		margin: 15px auto 0 auto;
+		padding: 0;
+		height: 100px;
+	}
+
+	#classifyLogo {
+		height: 65px;
 	}
 
 	.technologiesUsed {
