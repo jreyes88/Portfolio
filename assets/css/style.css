@@ -100,13 +100,26 @@ p {
 	margin-bottom: 10px;
 }
 
+.technologiesUsed {
+	width: 48%;
+	display: inline-block;
+}
+
+.linksAndTeam {
+	width: 48%;
+	margin: 0;
+	padding: 0;
+	display: inline;
+	float: right;
+}
+
 .projectLinks {
 	display: block;
 	line-height: 22px;
 }
 
-.listHeader {
-	margin-top: 10px;
+.teamMembers {
+	margin-top: 20px;
 }
 
 ul {
