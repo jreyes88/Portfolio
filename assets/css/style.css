@@ -194,6 +194,10 @@ and (max-width: 700px) {
 		text-align: center;
 	}
 
+	.contactLinks {
+		margin: 10px 16px;
+	}
+
 	.projectSection {
 		width: 100%;
 		display: block;
