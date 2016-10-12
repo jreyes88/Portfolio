@@ -190,4 +190,18 @@ li {
 		display: block;
 		margin: 0 auto;
 	}
+
+	.technologiesUsed {
+		width: 100%;
+		display: block;
+		margin-bottom: 20px;
+	}
+
+	.linksAndTeam {
+		width: 100%;
+		margin: 0;
+		padding: 0;
+		display: block;
+		float: none;
+	}
 }
