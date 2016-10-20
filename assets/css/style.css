@@ -138,10 +138,8 @@ ul {
 li {
 	line-height: 22px;
 }
-@media only screen 
-and (min-device-width: 320px) 
-and (max-device-width: 568px)
-and (max-width: 640px) {
+
+@media screen and (max-width: 640px) {
 	.left {
 		position: relative;
 		float: none;
